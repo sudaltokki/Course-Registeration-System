@@ -1,4 +1,4 @@
 # Course-Registeration-System
-Insert frontend personal project
+Insert front-end personal project
 
 [https://sudaltokki.github.io/Course-Registeration-System/](https://sudaltokki.github.io/Course-Registeration-System/)
