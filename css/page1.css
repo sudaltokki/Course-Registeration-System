@@ -145,14 +145,15 @@ ul {
     grid-template-columns: 180px 140px;
 }
 
-.bottom .right{
+.bottom .right {
     display: flex;
     justify-content: flex-end;
 }
 
-.border{
+.border {
     font-weight: bolder;
 }
+
 .bottom .item {
     border-bottom: lightgray solid 1px;
     display: flex;
@@ -168,20 +169,20 @@ ul {
 }
 
 
-.bottom .move{
+.bottom .move {
     text-align: right;
     padding-left: 35px;
 }
 
-.bottom .item:nth-child(10){
+.bottom .item:nth-child(10) {
     border: none;
 }
 
-.bottom .item:nth-child(11){
+.bottom .item:nth-child(11) {
     border: none;
 }
 
-.bottom .number{
+.bottom .number {
     width: 25px;
     height: 25px;
     border: #ff8430 solid 1px;
@@ -226,10 +227,11 @@ ul {
     cursor: pointer;
 }
 
-.home{
+.home {
     width: 1360px;
     margin: 90px 0px 0px 20px;
 }
+
 .banner {
     width: 1360px;
     height: 280px;
@@ -265,13 +267,13 @@ ul {
     border: lightgray solid 0.5px;
 }
 
-h4{
+h4 {
     margin-bottom: 8px;
 }
 
-.home p{
- margin: 8px 8px;
- font-size: 14px;
+.home p {
+    margin: 8px 8px;
+    font-size: 14px;
 }
 
 .home p::before {
@@ -285,11 +287,11 @@ h4{
     margin: 90px 0px 0px 20px;
 }
 
-.cur-logo span{
+.cur-logo span {
     font-size: 15px;
 }
 
-.cur-select{
+.cur-select {
     width: 1330px;
     height: 70px;
     font-size: 13px;
@@ -303,7 +305,7 @@ h4{
     align-items: center;
 }
 
-.cur-select select{
+.cur-select select {
     width: 180px;
     height: 24px;
     font-size: 13px;
@@ -311,15 +313,15 @@ h4{
     margin-right: 40px;
 }
 
-.cur-select .newpage{
+.cur-select .newpage {
     margin-left: 400px;
 }
 
-.notice-logo span{
+.notice-logo span {
     font-size: 15px;
 }
 
-.notice .notice-text{
+.notice .notice-text {
     width: 1330px;
     height: 430px;
     border: lightgray solid 0.5px;
@@ -333,7 +335,7 @@ h4{
     padding: 10px 15px 10px 15px;
 }
 
-.notice-text .box{
+.notice-text .box {
     border: lightgray solid 0.5px;
     padding: 10px 7px 10px 7px;
 }
