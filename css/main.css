@@ -62,7 +62,10 @@ body .container {
 }
 
 .title .subtitle {
+    color: darkgray;
     font-size: 18px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
 }
 
 .login {
@@ -79,11 +82,13 @@ body .container {
     width: 160px;
     height: 35px;
     margin-bottom: 9px;
+    padding-left: 9px;
 }
 
 .input .studentid {
     width: 160px;
     height: 35px;
+    padding-left: 9px;
 }
 
 .login .log-btn {
@@ -91,6 +96,17 @@ body .container {
     border-color: rgb(255, 138, 4);
     border-radius: 5px;
     background-color: rgb(255, 138, 4);
+}
+
+.log-btn .btn-text1{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.log-btn .btn-text2{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
 }
 
 .log-btn:hover{
@@ -103,6 +119,7 @@ body .container {
     width: 1350px;
     height: 700px;
     padding: 70px 0px 0px 160px;
+    font-family: "Segoe UI", "맑은 고딕", sans-serif;
 }
 
 .notice .n-title{
@@ -125,11 +142,26 @@ body .container {
 }
 
 .content .box {
+    font-size: 14px;
+    font-family: "Segoe UI", "맑은 고딕", sans-serif;
     width: 570px;
-    height: 450px;
+    height: 400px;
     padding: 20px 20px 20px 20px;
     margin-right: 20px;
     border: lightgray solid 0.5px;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+.orange{
+    font-weight: bold;
+    color: #ff8430;
+}
+
+.bolder{
+    font-weight: bold;
 }
 
 p::before {

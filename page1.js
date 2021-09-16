@@ -94,3 +94,12 @@ function user_logout() {
         }
         else {}
     }
+
+const newpage = document.querySelector(".newpage");
+newpage.addEventListener("click", new_page);
+
+function new_page() {
+    var link = 'page2.html';
+    var popOption = "top=150, left=300, width=910, height=300, status=no, menubar=no, toolbar=no, resizable=no";
+    window.open(link,"showlecture",popOption);
+}
